@@ -11,11 +11,11 @@ import RealmSwift
 class UniversityList: Object, Codable {
     
     @objc dynamic var stateProvince: String?
-    var domains = List<String>()
-    var webPages = List<String>()
     @objc dynamic var name: String?
     @objc dynamic var alphaTwoCode: String?
     @objc dynamic var country: String?
+    var domains = List<String>()
+    var webPages = List<String>()
 
     private enum CodingKeys: String, CodingKey {
         case stateProvince = "state-province"
@@ -25,9 +25,4 @@ class UniversityList: Object, Codable {
         case alphaTwoCode = "alpha_two_code"
         case country
     }
-}
-
-
-struct UniversityListResponse: Codable {
-    let items: [UniversityList]
 }

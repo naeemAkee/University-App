@@ -43,7 +43,6 @@ extension DetailPresenter: DetailViewOutputs {
     
     @objc func closeButtonTapped(){
         dependencies.router.dismiss(animated: true)
-//        dependencies.router.dismissScreen(detailRouterOutput: dependencies.router)
     }
     
 }
