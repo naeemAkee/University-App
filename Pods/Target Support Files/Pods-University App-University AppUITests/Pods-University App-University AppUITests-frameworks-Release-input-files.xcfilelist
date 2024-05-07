@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-University App-University AppUITests/Pods-University App-University AppUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
